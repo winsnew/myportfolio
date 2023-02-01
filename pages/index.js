@@ -67,7 +67,7 @@ const Page = () => {
                 About
             </Heading>
             <Paragraph>
-                Hello I'm Chairil Prasojo as undergraduate student from Dian Nuswantara University and
+                Hello I&apos;m Chairil Prasojo as undergraduate student from Dian Nuswantara University and
                 I Take majored in informatics. 
                 My passion as Fullstack Developer.
                 And My Favorite of daily is playing music  and play game with friends.

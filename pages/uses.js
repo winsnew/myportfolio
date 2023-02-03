@@ -39,14 +39,14 @@ const Uses = () => {
                 <Paragraph>
                     I build this setup for daily as developer and study in university. 
                     About my home use 1000W power electric
-                    the setup builded without a external vga , and so use Internal vga from CPU.
+                    the setup builded without a external vga and so use Internal vga from CPU.
                 </Paragraph>
             </Section>
             <Section>
                 <Heading as="h3" variant="section-title">
                     My Component Uses
                 </Heading>
-                <Paragraph>
+                
                     <li>DeepCool Case</li>
                     <li>ROG STRIX B550-E MotherBoard</li>
                     <li>AMD RYZEN 7 5700G CPU</li>
@@ -55,7 +55,7 @@ const Uses = () => {
                     <li>Samsung 860 PRO SATA III 256 2X</li>
                     <li>Samsung 980 M.2 PCIE GEN 3 1X</li>
                     <li>Corsair CX750 PSU</li>
-                </Paragraph>
+                
             </Section>
             </Layout>
     )

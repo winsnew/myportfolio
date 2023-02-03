@@ -18,6 +18,7 @@ import { HamburgerIcon } from "@chakra-ui/icons";
 import ThemeToggle from "./theme-toggle";
 import { forwardRef } from "react";
 
+
 const LinkItem = ({href,path,target,children, ...props}) => {
     const active = path === href
     const inactiveColor = useColorModeValue('gray.800', 'whiteAlpha.900')
@@ -80,7 +81,7 @@ const Navbar = props => {
                     <LinkItem href="/" path={path}>
                     About
                     </LinkItem>
-                    <LinkItem href="/uses" path={path}>
+                    <LinkItem href="/soon" path={path}>
                     Setup
                     </LinkItem>
                     <LinkItem href="/works" path={path}>

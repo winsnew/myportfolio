@@ -26,8 +26,10 @@
     "typewriter-effect": "^2.19.0"
   },
   "devDependencies": {
+    "autoprefixer": "^10.4.20",
     "eslint": "^8.32.0",
     "eslint-config-next": "^13.1.2",
+    "postcss": "^8.4.47",
     "prettier": "^2.8.3"
   }
 }

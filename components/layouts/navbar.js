@@ -21,7 +21,7 @@ import { forwardRef } from "react";
 
 const LinkItem = ({href,path,target,children, ...props}) => {
     const active = path === href
-    const inactiveColor = useColorModeValue('gray.800', 'whiteAlpha.900')
+    const inactiveColor = useColorModeValue('gray.700', 'whiteAlpha.900')
     return (
         <Link
         as={NextLink}
@@ -47,7 +47,6 @@ const Navbar = props => {
     const {path} = props
 
     return (
-        
         <Box
         position="fixed"
         as="nav"
@@ -71,7 +70,7 @@ const Navbar = props => {
                     </Heading>
                 </Flex>
                 <Stack
-                direction={{base: 'coloumn', md:'row'}}
+                direction={{base: 'column', md:'row'}}
                 display={{base: 'none', md:'flex'}}
                 width={{base: 'full', md: 'auto'}}
                 alignItems="center"
